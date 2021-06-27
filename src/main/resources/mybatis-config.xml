@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration><!-- configuration hover시 나타나는 규칙에 따라 작성해야 한다. ex) typlAlias가 environment보다 먼저 와야한다. -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>	<!-- DB컬럼에서 넘어온 값을 자바의 카멜케이싱으로 처리, 기본값 false-->
+		<setting name="jdbcTypeForNull" value="NULL"/>			<!-- java의 null 값을 DB에 null값으로 처리해서 보낸다 -->
+	</settings>
+</configuration>
